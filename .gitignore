@@ -36,3 +36,9 @@ yarn-error.log*
 
 tools/node_modules
 tools/output
+
+
+# local environment files
+.env
+.env.*
+!.env.example
