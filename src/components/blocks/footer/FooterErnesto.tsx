@@ -2,7 +2,7 @@ import { FC } from 'react';
 import Email from 'icons/lineal/Email';
 import SocialLinks from 'components/reuseable/SocialLinks';
 
-const Contact10: FC = () => {
+const FooterErnesto: FC = () => {
   return (
     <section className="bg-gradient-blend">
       <div className="container py-8 py-md-8">
@@ -40,4 +40,4 @@ const Contact10: FC = () => {
   );
 };
 
-export default Contact10;
+export default FooterErnesto;
