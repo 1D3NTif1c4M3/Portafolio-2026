@@ -1,6 +1,11 @@
 import { FC } from 'react';
-import Plyr from 'plyr-react';
+import dynamic from 'next/dynamic';
 import Image from 'next/image';
+
+const Plyr = dynamic(() => import('plyr-react'), {
+  ssr: false,
+  loading: () => <div className="card-img-top" />,
+});
 // -------- custom components -------- //
 import Pagination from 'components/reuseable/Pagination';
 import BlogSidebar from 'components/reuseable/BlogSidebar';
