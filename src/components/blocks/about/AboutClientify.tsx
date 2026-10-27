@@ -38,9 +38,8 @@ const About6: FC = () => {
       <div className="col-lg-6">
         <h2 className="display-4 mb-3 text-leaf">CRM Clientify | Marketing y Automatización</h2>
 
-        <p style={{ textAlign: 'justify' }} className="lead fs-lg">
-             En el cuál recibi capacitación para su administración e integración del CRM Clientify. Que me permite automatizar procesos de marketing y ventas, en el cuál he
-              creado formularios de captación, Landing Pages, Campañas de Mailing y administrar embudos comerciales, segmentar audiencias y medir resultados mediante herramientas de analítica e integración cpara generar Tráfico Web.
+            <p style={{ textAlign: 'justify' }} className="lead fs-lg">
+              Recibí capacitación especializada en la administración e integración del CRM Clientify, participando en la implementación de soluciones orientadas a la automatización de procesos de marketing y ventas. He desarrollado formularios de captación y Landing Pages, configurado campañas de Mailing y administrado embudos comerciales para optimizar el seguimiento de prospectos. Asimismo, he trabajado en la segmentación de audiencias y en la integración con herramientas de analítica para medir resultados, generar tráfico web y apoyar la toma de decisiones basada en datos.
             </p>
             
             <Link

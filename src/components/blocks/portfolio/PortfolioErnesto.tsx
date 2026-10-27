@@ -27,22 +27,11 @@ const Portfolio9: FC = () => {
               <div className="col-lg-4 pb-12 align-self-center">
                 <div className="post-category mb-3 text-violet">Diseño y Desarrollo web (UX) (Ui)</div>
                 <h3 className="h1 post-title mb-3 text-violet">univdep.edu.mx</h3>
-                <p>
-                Desarrollo y Mantenimiento de un sitio Web utilizando las Framework Next.js & React.js, en Backend Node.js. Diseño Responsivo, Bootstrap, Posicionamiento SEO (Open Graph, canonical, title. etc.) integración de CRM (Clientify).
+                <p style={{ textAlign: 'justify' }}>
+               Desarrollo y mantenimiento del sitio web utilizando los frameworks Next.js y React.js, con integración de servicios mediante Node.js. Implementación de interfaces responsivas utilizando Bootstrap y buenas prácticas de desarrollo Front End. Optimización del posicionamiento SEO mediante la configuración de metadatos, títulos, URLs canónicas, Open Graph y otros elementos técnicos. Integración de CRM (Clientify), así como la implementación de herramientas de analítica y seguimiento.
                 </p>
-                 <p>Estatus: Actualmente actualizando</p>
-                 <Link
-                      title="Ver Proyecto" target="_blank" href="https://www.univdep.edu.mx/"
-                      className="mt-2 text-center more hover link-violet">
-                      Ver Proyecto
-                </Link>
-
-&nbsp;&nbsp;&nbsp;
-                <Link
-                      title="Ver Proyecto" target="_blank" href="https://www.univdep.edu.mx/Puntos-de-partida"
-                      className="mt-2 text-center more hover link-violet">
-                      Landing Page realizada con Next.js & React.js
-                </Link>
+                 <p><span className='text-violet'>Estatus: </span>Actualmente actualizando</p>
+                 
 
 
 
@@ -50,13 +39,30 @@ const Portfolio9: FC = () => {
 
 
               </div>
-              <div className="col-lg-7 offset-lg-1 align-self-end">
+              <div className="col-lg-7 offset-lg-1 align-items-center">
                <a href='https://www.univdep.edu.mx/' target="_blank" >
                   <img className="img-fluid"
                     src="/img/photos/Pagina-Web-univdep-Oficial.png"
                     srcSet="/img/photos/Pagina-Web-univdep-Oficial@2x.png 2x" alt="" />
-                  </a>
+                </a>
                 
+                <br></br>
+                <br></br>
+                
+<Link
+                      title="Ver Proyecto" target="_blank" href="https://www.univdep.edu.mx/"
+                      className="mt-2 more hover link-violet">
+                      Ver Proyecto
+                </Link>
+
+                &nbsp;&nbsp;&nbsp;
+                <br></br>
+                <Link
+                      title="Ver Proyecto" target="_blank" href="https://www.univdep.edu.mx/Puntos-de-partida"
+                      className="mt-2 text-center more hover link-violet">
+                      Landing Page realizada con Next.js & React.js
+                </Link>
+
               </div>
             </div>
           </div>
@@ -73,7 +79,7 @@ const Portfolio9: FC = () => {
                 <p>
                  Diseño y Desarrollo Web institucional con Html 5, CSS3, Bootstrap y Javascrip y de Backend PHP. Posicionamiento SEO(keywords, description etc.)
                 </p>
-                <p>Estatus: Actualmente actualizando</p>
+                <p><span className='text-blue'>Estatus:</span> Actualmente actualizando</p>
                <Link
                       title="Ver Proyecto" target="_blank" href="https://univdep.online/"
                       className="mt-2 text-center more hover link-blue mb-8">
@@ -97,7 +103,7 @@ const Portfolio9: FC = () => {
                 <p>
                  Diseño y Desarrollo Web institucional con Html 5, CSS3, Bootstrap y Javascrip y de Backend PHP. Posicionamiento SEO(keywords, description etc.)
                 </p>
-                 <p>Estatus: Actualmente actualizando</p>
+                 <p><span className='text-fuchsia'>Estatus: </span>Actualmente actualizando</p>
                  <Link
                       title="Ver Proyecto" target="_blank" href="https://www.escuelanormal15demayo.edu.mx/"
                       className="mt-2 text-center more hover link-fuchsia mb-8">
@@ -127,7 +133,7 @@ const Portfolio9: FC = () => {
                 <p>
                  Diseño y Desarrollo Web institucional con Html 5, CSS3, Bootstrap y Javascrip y de Backend PHP. Posicionamiento SEO(keywords, description etc.)
                 </p>
-                <p>Estatus: Actualmente actualizando</p>
+                <p><span className='text-aqua'>Estatus:</span> Actualmente actualizando</p>
                <Link
                       title="Ver Proyecto" target="_blank" href="https://www.iapas.mx/"
                       className="mt-2 text-center more hover link-aqua mb-8">
@@ -150,7 +156,7 @@ const Portfolio9: FC = () => {
                 <p>
                  Diseño y Desarrollo Web institucional con Html 5, CSS3, Bootstrap y Javascrip y de Backend PHP. Posicionamiento SEO(keywords, description etc.)
                 </p>
-                <p> Estatus: Entregada</p>
+                <p><span className='text-red'>Estatus: </span> Entregada</p>
                  <Link
                       title="Ver Proyecto" target="_blank" href="https://www.turbosalltunning.com.mx/"
                       className="mt-2 text-center more hover link-red mb-8">
