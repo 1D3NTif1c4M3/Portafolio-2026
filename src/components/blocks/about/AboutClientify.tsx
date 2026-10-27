@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import Megaphone from 'icons/lineal/Megaphone';
-import { Tiles5 } from 'components/elements/tiles';
-import ListColumn from 'components/reuseable/ListColumn';
+import Link from 'next/link';
+
 import Carousel from 'components/reuseable/Carousel';
 // -------- data -------- //
 import { aboutList2 } from 'data/about';
@@ -36,14 +36,18 @@ const About6: FC = () => {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="display-4 mb-3">CRM Clientify | Marketing y Automatización</h2>
+        <h2 className="display-4 mb-3 text-leaf">CRM Clientify | Marketing y Automatización</h2>
 
         <p style={{ textAlign: 'justify' }} className="lead fs-lg">
              En el cuál recibi capacitación para su administración e integración del CRM Clientify. Que me permite automatizar procesos de marketing y ventas, en el cuál he
               creado formularios de captación, Landing Pages, Campañas de Mailing y administrar embudos comerciales, segmentar audiencias y medir resultados mediante herramientas de analítica e integración cpara generar Tráfico Web.
             </p>
             
-           
+            <Link
+                      title="Ver Proyecto" target="_blank" href="https://crm.univdep.edu.mx/Lic-en-Diseno-Grafico-y-Creatividad-Visual"
+                      className="mt-2 text-center more hover link-leaf">
+                      Landing Page en realizada en CRM Clientify
+                </Link>
 
       </div>
         </div>

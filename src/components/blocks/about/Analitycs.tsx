@@ -53,7 +53,7 @@ const About6: FC = () => {
       </div>
 
       <div className="col-lg-6">
-        <h2 className="display-4 mb-3">SEO | Google Tag, Ads & Analitycs </h2>
+        <h2 className="display-4 mb-3 text-purple">SEO | Google Tag, Ads & Analitycs </h2>
 
         <p style={{ textAlign: 'justify' }} className="lead fs-lg">
             Me encargo de la implementación y optimización de estrategias de SEO, Google Tag Manager, Google Ads y Google Analytics, orientadas a mejorar el posicionamiento web, medir el comportamiento de los usuarios y optimizar campañas digitales. Configuro etiquetas, eventos y conversiones mediante Google Tag Manager, analizo métricas y resultados en Google Analytics y gestiono campañas de Google Ads, trabajando con palabras clave, segmentación, conversiones y rendimiento para apoyar la captación de usuarios y el crecimiento digital.

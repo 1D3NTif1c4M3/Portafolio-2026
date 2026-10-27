@@ -36,6 +36,19 @@ const Portfolio9: FC = () => {
                       className="mt-2 text-center more hover link-violet">
                       Ver Proyecto
                 </Link>
+
+&nbsp;&nbsp;&nbsp;
+                <Link
+                      title="Ver Proyecto" target="_blank" href="https://www.univdep.edu.mx/Puntos-de-partida"
+                      className="mt-2 text-center more hover link-violet">
+                      Landing Page realizada con Next.js & React.js
+                </Link>
+
+
+
+
+
+
               </div>
               <div className="col-lg-7 offset-lg-1 align-self-end">
                <a href='https://www.univdep.edu.mx/' target="_blank" >
